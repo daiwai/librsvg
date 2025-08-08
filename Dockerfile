@@ -1,7 +1,7 @@
 FROM minidocks/poppler
 LABEL maintainer="Martin Hasoň <martin.hason@gmail.com>"
 
-RUN apk --update add librsvg && clean
+RUN apk --update add rsvg-convert && clean
 
 COPY rootfs /
 
