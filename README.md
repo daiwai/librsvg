@@ -11,7 +11,7 @@ Usage
 -----
 
 ```bash
-docker run --rm -v `pwd`:/app -w /app minidocks/librsvg http://google.com google.pdf
+docker run --rm -v `pwd`:/app -w /app minidocks/librsvg input.svg  --format=pdf --output=output.pdf
 ```
 
 Tags
